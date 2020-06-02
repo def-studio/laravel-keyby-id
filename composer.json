@@ -1,0 +1,29 @@
+{
+    "name": "defstudio/laravel-keyby-id",
+    "description": "Adds KeyBy('id') to Eloquent relationships",
+    "keywords": [
+        "eloquent",
+        "relationships",
+        "keyby"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Ivona",
+            "email": "fabio.ivona@defstudio.it",
+            "homepage": "https://defstudio.it",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DefStudio\\KeyBy\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
